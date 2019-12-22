@@ -2,9 +2,9 @@
 #   "Timmy" => 9,
 #   "Sarah" => 6,
 #   "Amanda" => 27
-# }(array, index)
+# }
 
-def happy_birthday(birthday_kids)
+def happy_birthday(birthday_kids, index)
   birthday_kids.each do |kids_name, age|
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
   end
